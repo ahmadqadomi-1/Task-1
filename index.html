@@ -4,7 +4,12 @@
     <title>Tiger</title>
     <meta charset="UTF-8">
     <meta name="description" content="My favorite animal">
-    <style></style>
+    <style>
+        .AA,
+        .BB {
+            background-color: rgb(248, 189, 39);
+        }
+    </style>
     <script></script>
 </head>
 <body>
@@ -25,64 +30,213 @@
     <h3>Images</h3>
     <a href="https://www.w3schools.com/html/"> <img src="HTML5_logo.png" alt="HTML5_logo"> </a>
     <img src="HTML5_logo.png" alt="HTML5_logo" title="HTML5_logo">
-    <hr><hr><hr><hr><hr>
-
-    
-<form action="" method="post">
-    <div class=" username ">
-        <label for="User"> username: </label>
-        <input id="User" type="text" placeholder=" username " required name="User">
-    </div>
-    <br>
-    <div class=" password ">
-        <label for="pass"> password: </label>
-        <input id="pass" type="password" placeholder=" password " required name="pass" 
-            maxlength="20">
-    </div>
-    <br>
-    <div class=" submit ">
-        <input type="submit" value=" Log in " name="Sub">
-    </div>
-    <br>
-    <div class="age">
-        <label for="DB"> Day of birth </label>
-        <input id="DB" type="date">
-    </div>
-    <br>
-    <div class="gender">
-        <label for="gd"> choose gender: </label>
-        <select name="gender" id="gd">
-            <optgroup label="gender">
-                <option value="2" selected> female </option>
-                <option value="1" selected> male </option>
-            </optgroup>
-        </select>
-    </div>
-    <div class="fiv">
-        <h4> Your favorite: </h4>
-        <div class="clothes">
-            <input id="clo" type="checkbox" name="fiv" value="clothes">
-            <label for="clo"> clothes </label>
-        </div>
-        <div class="Jewelry & Accessories">
-            <input id="J&A" type="checkbox" name="fiv" value="Jewelry and Accessories">
-            <label for="J&A"> Jewelry & Accessories </label>
-        </div>
-        <div class="Cars">
-            <input id="Car" type="checkbox" name="fiv" value="Cars">
-            <label for="Car"> Cars </label>
-        </div>
-        <div class="Cell Phones & Accessories">
-            <input id="C&A" type="checkbox" name="fav" value="Cell Phones & Accessories">
-            <label for="C&A"> Cell Phones & Accessories </label>
-        </div>
-    </div>
-    <div class="sub or rest">
-        <input type="reset" value="reset" name="reset">
-        <input type="submit" value="Save" name="Sub">
-    </div>
+    <hr><br>
+    <h3><b>Images in Tables</b></h3>
     <hr>
-</form>
+    <p>what are your favorite pets?</p>
+    <br>
+    <table border="1"  cellpadding="8" bgcolor="lightgray" >
+        <thead>
+            <tr align="center">
+                <td> <b>Pet Image</b> </td>
+                <td> <b>More facts about (as a Link)</b> </td>   
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="Horse.jpeg" alt="" width="420" height="200"> </td>
+                <td> <a href="https://www.alwayspets.com/s/most-expensive-horse-breeds-85c5de0712634566"> Horse </a> </td>
+            </tr>
+            <tr>
+                <td> <img src="dogs.jpg" alt="" width="420px" height="200px" > </td>
+                <td> <a href="https://www.nylabone.com/dog101/10-great-small-dog-breeds"> Dogs </a> </td>
+            </tr>
+            <tr>
+                <td> <img src="cats.jpg" alt="" width="420" height="200" > </td>
+                <td> <a href="https://www.purina-arabia.com/cat">Cats</a> </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h3 align="center"> Time Table </h3>
+    <table border="1"  cellpadding="8" bgcolor="lightgray" >
+        <tbody>
+            <tr>
+                <td> Day/Period </td>
+                <td align="center"> I <br>9:30-10:20 </td>
+                <td align="center"> II <br>10:20-11:10 </td>
+                <td align="center"> III <br>11:10-12:00 </td>
+                <td align="center"> 12:00-12:40 </td>
+                <td align="center"> IV <br>12:40-1:30 </td>
+                <td align="center"> V <br>1:30-2:20 </td>
+                <td align="center"> VI <br>2:20-3:10 </td>
+                <td align="center"> VII <br>3:10-4:00 </td>
+            </tr>
+            <tr>
+                <td align="center"> Monday </td>
+                <td align="center">Eng</td>
+                <td align="center">Mat</td>
+                <td align="center">che</td>
+                <td rowspan="6" align="center "> <h3>L <br> U <br> N <br> C <br> H </h3> </td>
+                <td colspan="3" align="center"> LAB </td>
+                <td align="center">Phy</td>
+            </tr>
+            <tr>
+                <td align="center"> Tuesday </td>
+                <td colspan="3" align="center">LAB</td>
+                <td align="center">Eng</td>
+                <td align="center ">Che</td>
+                <td align="center">Mat</td>
+                <td align="center">SPORTS</td>
+            </tr>
+            <tr>
+                <td align="center"> Wednesday </td>
+                <td align="center">Mat</td>
+                <td align="center">Phy</td>
+                <td align="center ">Eng</td>
+                <td align="center">Che</td>
+                <td colspan="3" align="center">LIBRARY</td>
+            </tr>
+            <tr>
+                <td align="center"> Thursday </td>
+                <td align="center">Phy</td>
+                <td align="center">Eng</td>
+                <td align="center">che</td>
+                <td colspan="3" align="center"> LAB </td>
+                <td align="center">Mat</td>
+            </tr>
+            <tr>
+                <td align="center"> Friday </td>
+                <td colspan="3" align="center">LAB</td>
+                <td align="center">Mat</td>
+                <td align="center ">Che</td>
+                <td align="center">Eng</td>
+                <td align="center">Phy</td>
+            </tr>
+            <tr>
+                <td align="center"> Saturday </td>
+                <td align="center">Eng</td>
+                <td align="center">che</td>
+                <td align="center">Mat</td>
+                <td colspan="3" align="center"> SEMINAR </td>
+                <td align="center">SPORTS</td>
+            </tr>
+        </tbody>
+    </table>
+    <br> <hr>
+    <h3>Preceding Test</h3>
+    <ol type="I">
+        <li>List Items 1
+            <ol type="a">
+                <li>Nested Items 1.1</li>
+                <li>Nested Items 1.2</li>
+            </ol>
+        </li>
+        <li> List Items 2
+            <ol type="1">   
+                <li>Nested Items 2.1</li>
+                <li>Nested Items 2.2
+                    <ul>
+                        <li>Nested Items 2.2.1</li>
+                        <li>Nested Items 2.2.2
+                            <ul>
+                                <li>Nested Items 2.2.2.1</li>
+                                <li>Nested Items 2.2.2.2</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Nested Items 2.3</li>
+            </ol>
+        </li>
+        <li>List Items 3
+            <ul> 
+                <li> Nested Items 3.1 </li>
+                <li> Nested Items 3.2 </li>
+                <li> Nested Items 3.3 </li>
+            </ul>
+        </li>
+    </ol>
+    <br><hr>
+    <form action="" method="post">
+        <h3>Registration Form</h3>
+        <div class="AA">
+        <div class="First"></div>
+        <fieldset>
+            <legend> Personal details </legend>
+            <div class="Sign In">
+                <label for="FN">First Name:</label>
+                <input id="FN" type="text" required name="Test" placeholder=" your first name ">
+            </div>
+            <div class="Last"> 
+                <label for="LA">Last Name:</label>
+                <input id="LA" type="text" placeholder=" your Last name " >
+            </div>
+            <div class="Email">
+                <label for="EM"> Email address </label>
+                <input id="EM" type="email" placeholder="your email" >
+                </div>
+            <br>
+            <div>
+                Gender:
+                    <input id="MA" type="radio">
+                    <label for="MA">Male</label>
+                    <input id="FE" type="radio">
+            s       <label for="FE">Female</label>
+            </div>
+        </div>
+        </fieldset>
+        <br>
+            <div class="Jordan">
+                <div class="BB">
+                <fieldset>
+                    <legend>City</legend>
+                <label for="CT">City</label>
+                <select name="City" id="CT">
+                    <option value="1">Amman</option>
+                    <option value="2">Irbid</option>
+                    <option value="3">Zarqa</option>
+                    <option value="4">Balqa</option>
+                    <option value="5">Mafraq</option>
+                    <option value="6">Jerash</option>
+                    <option value="7">Ajloun</option>
+                    <option value="8">Madaba</option>
+                    <option value="9">Karak</option>
+                    <option value="10">Tafilah</option>
+                    <option value="11">Ma'an</option>
+                    <option value="12">Aqaba</option>
+                </select>
+                </fieldset>
+                </div>
+            </div>
+            <br>
+            <div class=" Sub ">
+                <input type="submit" value="Subscribe">
+            </div>
+            
+        </div>
 
+    </form>
+
+    <hr>
+    <h3>Our First Form!</h3>
+    <form method="post">
+        <div class=" username ">
+            <label for="User"> Username: </label>
+            <input id="User" type="text" placeholder=" username " required name="User">
+        </div>
+        <br>
+        <div class=" password ">
+            <label for="pass"> Password: </label>
+            <input id="pass" type="password" placeholder=" password " required name="pass" min="8" 
+                max="20">
+        </div>
+        <br>
+        <div class=" submit ">
+            <input type="submit" value=" Log in " name="Sub">
+        </div>
+        <br>
+    </form>
 </body>
 </html> 
