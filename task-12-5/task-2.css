@@ -1,0 +1,74 @@
+.Background{
+    background-image: url(Bubbles.jpg);
+    color: black;
+}
+table {
+    width: 29%;
+    border-spacing: 10px;
+}
+table td{
+    padding: 5px;
+    border: .5px;
+    border-style:solid ;
+    border-radius: 7px;
+    box-shadow: 0px 4px 6px rgb(45, 45, 56);
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.P1{ 
+    padding: 5px;
+    width: 50%;
+    border: 1px black solid;
+}
+.P2 {
+    padding: 5px;
+    width: 50%;
+    border: 2px black dashed;
+}
+.Part2 {
+    padding: 5px;
+    border: 2px red dashed;
+}
+.Purple{
+    color: Purple;
+    font-size: 30px;
+}
+.P3 {
+    padding: 5px;
+    width: 50%;
+    border: 1px black solid;
+}
+.FF {
+    color: blue;
+    /* padding: 20px; */
+    margin: 20px;
+}
+.GRN {
+    color: green;
+    margin: -20px;
+}
+.Styling,
+.Heading {
+    font-size: 30px;
+    font-weight: 900;
+}
+.Styling{
+    color: orange;
+    text-align: left;
+}
+.Heading{
+    text-align: right;
+}
+.MF{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MS{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
