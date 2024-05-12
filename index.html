@@ -6,8 +6,10 @@
     <meta name="description" content="My favorite animal">
     <style>
         .AA,
-        .BB {
+        .BB,
+        form {
             background-color: rgb(248, 189, 39);
+            padding: 15px;
         }
     </style>
     <script></script>
@@ -137,21 +139,21 @@
             <ol type="1">   
                 <li>Nested Items 2.1</li>
                 <li>Nested Items 2.2
-                    <ul>
+                    <ul style="list-style-type: circle;">
                         <li>Nested Items 2.2.1</li>
                         <li>Nested Items 2.2.2
-                            <ul>
+                            <ul style="list-style-type: square;">
                                 <li>Nested Items 2.2.2.1</li>
                                 <li>Nested Items 2.2.2.2</li>
                             </ul>
                         </li>
+                        <li>Nested Items 2.3</li>
                     </ul>
                 </li>
-                <li>Nested Items 2.3</li>
             </ol>
         </li>
         <li>List Items 3
-            <ul> 
+            <ul style="list-style-type:disc;"> 
                 <li> Nested Items 3.1 </li>
                 <li> Nested Items 3.2 </li>
                 <li> Nested Items 3.3 </li>
@@ -159,12 +161,14 @@
         </li>
     </ol>
     <br><hr>
+    <h3>Registration Form</h3>
+    <fieldset>
+        <legend> Personal details </legend>
     <form action="" method="post">
-        <h3>Registration Form</h3>
+        
         <div class="AA">
         <div class="First"></div>
-        <fieldset>
-            <legend> Personal details </legend>
+        
             <div class="Sign In">
                 <label for="FN">First Name:</label>
                 <input id="FN" type="text" required name="Test" placeholder=" your first name ">
@@ -188,10 +192,11 @@
         </div>
         </fieldset>
         <br>
+        <fieldset>
+            <legend>City</legend>
             <div class="Jordan">
                 <div class="BB">
-                <fieldset>
-                    <legend>City</legend>
+                
                 <label for="CT">City</label>
                 <select name="City" id="CT">
                     <option value="1">Amman</option>
@@ -215,7 +220,7 @@
                 <input type="submit" value="Subscribe">
             </div>
             
-        </div>
+</div>
 
     </form>
 
