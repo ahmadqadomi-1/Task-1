@@ -1,0 +1,67 @@
+.PIC1{
+    width: 30%;
+    height: 100%;
+    border: 1px rgb(255, 255, 255) solid;
+    display: inline-block;
+}
+.PIC2{
+    width: 30%;
+    height: 100%;
+    border: 1px rgb(255, 255, 255) solid;
+    display: inline-block;
+}
+.I4{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.PIC3{
+    width: 30%;
+    height: 100%;
+    border: 1px rgb(255, 255, 255) solid;
+    display: inline-block;
+}
+.S4{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.part{
+    border-style: dotted;
+    display: inline-block;
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: static;
+}
+.gr{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: static;
+}
+.gre{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.gree{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    /* left: 30px;
+    bottom: 200px; */
+    margin-left: 30px;
+    margin-top: 13px;
+}
+
