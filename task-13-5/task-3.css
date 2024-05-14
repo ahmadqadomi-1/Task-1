@@ -1,24 +1,25 @@
+
 .PIC1{
     width: 30%;
     height: 100%;
-    border: 1px rgb(255, 255, 255) solid;
+    border: 1px rgb(234, 17, 17) solid;
     display: inline-block;
 }
 .PIC2{
     width: 30%;
     height: 100%;
-    border: 1px rgb(255, 255, 255) solid;
+    border: 1px rgb(176, 34, 34) solid;
     display: inline-block;
 }
 .I4{
     background-color: white;
-    color: black;
-    text-align: center;
-}
+    text-align: center;}
+
+    
 .PIC3{
     width: 30%;
     height: 100%;
-    border: 1px rgb(255, 255, 255) solid;
+    border: 1px rgb(228, 10, 10) solid;
     display: inline-block;
 }
 .S4{
